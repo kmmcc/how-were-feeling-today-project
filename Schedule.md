@@ -24,3 +24,5 @@ Function that takes in a date and references wikipedia to fill the
 
 Function that references the input date and then displays what day of the week it was
 e.g. 'April 23, 2015 was a Thursday'
+
+click handler function that fires the other two functions
