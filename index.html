@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>What Day Project</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+
+  <div class="container-fluid">
+
+  <div class ="row">
+    <div class="col" id="section1">
+      <form class="form-inline">
+        <label for="monthInput">Month</lable>
+        <input type="text" id="monthInput" class="form-control mb-2 mr-sm-2">
+        <label for="dayInput">Day</label>
+        <input type="text" id="dayInput" class="form-control mb-2 mr-sm-2">
+        <label for="yearInput">Year</label>
+        <input type="text" id="yearInput" class="form-control mb-2 mr-sm-2">
+        <button type="button" id="getDayButton" class="btn btn-primary">Get Day</button>
+      </form>
+    </div>
+  </div>
+
+  <div class ="row">
+    <div class="col" id="section2">
+    MONTH XX YEAR is a XXXXXDAY
+    </div>
+  </div>
+
+  <div class ="row">
+    <div class="col" id="section3">
+    <h5>EVENTS ON THIS DATE</h5>
+      Centered heading, bulleted list of events, pulled from wikipedia Centered heading, bulleted list of events, pulled from wikipedia Centered heading, bulleted list of events, pulled from wikipedia
+
+
+    </div>
+  </div>
+
+
+
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
+
+</body>
+
+</html>
+
+<!-- 
+
+use bootstrap
+
+Top section is the date input
+
+second section is the date display (with day of the week)
+
+Third section is the events readout
+
+
+use separate divs for each section in the body tag
+
+
+Section 1: Month, day, year text input fields, 'Get Day' button
+
+
+Section 2: Heading style display of date and day of week
+      - needs to respond to 'Get Day' button
+
+Section 3: Centered "EVENTS ON THIS DATE" heading, bulleted list
+of events, pulled from wikipedia
+
+custom id's and classes for everything
+
+
+
+ -->
